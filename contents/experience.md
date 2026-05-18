@@ -1,6 +1,8 @@
 ### **Video Generation Deployment and Inference Optimization with AniSora**
 **2026.03 - Present | Video Generation · Low-VRAM Inference**
 
+[[Project]](https://github.com/xhb-61/AniSora-based-video-generation)
+
 Deployed and validated a low-VRAM AniSora inference workflow on Linux multi-GPU servers for video generation experiments.
 
 #### Key Contributions
