@@ -1,21 +1,53 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+### **Video Generation Deployment and Inference Optimization with AniSora**
+**2026.03 - Present | Video Generation · Low-VRAM Inference**
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
+Deployed and validated a low-VRAM AniSora inference workflow on Linux multi-GPU servers for video generation experiments.
 
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+#### Key Contributions
+
+- Analyzed the inference package structure, quantization path, and dependency chain.
+- Built a minimal runnable path with PyTorch fallback.
+- Designed inference experiments with offload and lazy-loading strategies under 12GB VRAM constraints.
+- Generated single-sample and batch-sample demos, including 3s/6s videos and 320p/480p configurations.
+- Compared generation quality, temporal consistency, and memory cost across 3s/6s, 320p/1-step, and 480p/4-step settings.
 
 ---
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+### **Controllable Generation with ControlNet**
+**2026.01 - Present | Diffusion Models · ControlNet · Diffusers**
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
+Explored conditional control mechanisms in diffusion models for character and face-oriented image generation.
 
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+#### Key Contributions
+
+- Built inference pipelines with Hugging Face Diffusers and ControlNet pretrained models.
+- Implemented depth-map and human-pose conditioned generation.
+- Evaluated edge, pose, sketch, and semantic-segmentation controls.
+- Summarized how different control signals affect stability, constraint strength, and generation quality.
+
+---
+
+### **Blind Image Deblurring with Deep Tensor Low-Rank Priors**
+**2025.06 - Present | Self-Supervised Restoration · Tensor Low-Rank Regularization**
+
+Developed a self-supervised blind deblurring framework that combines deep image priors with tensor low-rank regularization for complex non-uniform blur restoration.
+
+#### Key Contributions
+
+- Built a deep self-supervised network for image feature extraction and blur-kernel estimation.
+- Introduced tensor low-rank regularization as a global constraint to stabilize optimization.
+- Improved PSNR by **0.44 dB** on the Lai non-uniform blur benchmark compared with strong baselines.
+
+---
+
+### **Efficient Image Restoration with Plug-and-Play Priors**
+**2023.06 - 2025.05 | Inverse Problems · PnP Priors · Convergence Guarantees**
+
+Worked on a modular plug-and-play restoration framework for mixed-noise image recovery with both practical performance and theoretical stability.
+
+#### Key Contributions
+
+- Designed optimization algorithms for mixed-noise characteristics.
+- Trained deep denoising models under different noise levels.
+- Contributed to cocoercive denoisers with convergence-aware restoration behavior.
+- Related works accepted by **NeurIPS 2025** and **Numerical Algorithms**.

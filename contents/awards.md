@@ -1,3 +1,1 @@
-- 校级一等奖学金, 2022.  
-
-- Outstanding Graduation Thesis, XXX University, 2023. 
+- ECNU Outstanding Academic Scholarship for Graduate Students, Ph.D. First Class, 2025.
