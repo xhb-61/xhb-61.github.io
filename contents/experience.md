@@ -18,6 +18,8 @@ Deployed and validated a low-VRAM AniSora inference workflow on Linux multi-GPU 
 ### **Controllable Generation with ControlNet**
 **2026.01 - Present | Diffusion Models · ControlNet · Diffusers**
 
+[[Project]](https://github.com/xhb-61/Controllable-Generation-via-Controlnet)
+
 Explored conditional control mechanisms in diffusion models for character and face-oriented image generation.
 
 #### Key Contributions
