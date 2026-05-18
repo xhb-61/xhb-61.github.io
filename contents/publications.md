@@ -1,4 +1,4 @@
-- **Xu Haobo**, Li Fang. *Smoothing priors for blind image deblurring.* SIAM Journal on Imaging Sciences, 2025, 18(1): 216245.
+- **Xu Haobo**, Li Fang. *Smoothing priors for blind image deblurring.* SIAM Journal on Imaging Sciences, 2025, 18(1): 216245. [[Code]](https://github.com/xhb-61/Smoothing-priors-for-blind-deblurring-codes)
 
 - **Xu Haobo**, Li Fang. *Blind deconvolution via a tensor adaptive non convex total variation prior.* Journal of Computational and Applied Mathematics, 2025, 463: 116511.
 
