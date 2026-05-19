@@ -34,6 +34,8 @@ Explored conditional control mechanisms in diffusion models for character and fa
 ### **Blind Image Deblurring with Deep Tensor Low-Rank Priors**
 **2025.06 - Present | Self-Supervised Restoration · Tensor Low-Rank Regularization**
 
+[[Project]](https://github.com/xhb-61/Blind-Image-Deblurring-with-Deep-Tensor-Low-Rank-Priors)
+
 Developed a self-supervised blind deblurring framework that combines deep image priors with tensor low-rank regularization for complex non-uniform blur restoration.
 
 #### Key Contributions
