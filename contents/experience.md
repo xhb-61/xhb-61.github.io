@@ -1,3 +1,20 @@
+### **Face Restoration with Reference Images**
+**2026.05 - Present | Face Restoration · Reference-Guided Diffusion**
+
+[[Project]](https://github.com/xhb-61/Face-restoration-with-reference-images)
+
+Investigated reference-guided blind face restoration on heavily degraded concert-stage faces using Ref-LDM and FaceMe-inspired reference expansion.
+
+#### Key Contributions
+
+- Built a two-stage **GFPGAN + Ref-LDM img2img** restoration pipeline to improve LR structure preservation.
+- Implemented FaceMe-style reference expansion with Arc2Face, ControlNet, and ArcFace identity filtering.
+- Generated **162** same-identity reference images across 6 identities and restored all **22** LR face inputs.
+- Ran CFG-scale sweeps and produced comparison sheets for systematic identity, structure, and artifact analysis.
+- Diagnosed key failure modes including non-square resize distortion, weak noise2img structure constraints, unstable generated references, and reference-count limits.
+
+---
+
 ### **Video Generation Deployment and Inference Optimization with AniSora**
 **2026.03 - Present | Video Generation · Low-VRAM Inference**
 
